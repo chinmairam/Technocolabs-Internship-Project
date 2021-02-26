@@ -5,12 +5,12 @@
     <h1>Blood Donation</h1>
 
     <form action="/predict" method="POST">
-        <p>Regency: <input type="text" name="Regency" placeholder="months since last donation" required="required"></p>
-        <p>Frequency: <input type="text" name="Frequency" placeholder="total number of donation" required="required"></p>
-        <p>Monetary: <input type="text" name="Monetary" placeholder="total blood donated in c.c." required="required"></p>
-        <p>Time: <input type="text" name="Time" placeholder="months since the first donation" required="required"></p>
+        <p>Recency: <input type="number" name="Regency (months)" placeholder="months since last donation" required="required"></p>
+        <p>Frequency: <input type="number" name="Frequency (times)" placeholder="total number of donation" required="required"></p>
+        <p>Monetary: <input type="number" name="Monetary (c.c. blood)" placeholder="total blood donated in c.c." required="required"></p>
+        <p>Time: <input type="number" name="Time (months)" placeholder="months since the first donation" required="required"></p>
 
-        <input type="submit" value="predict">
+        <button type="submit" value="predict">Predict</button>
     </form>
 
     <img src="https://www.brmsonline.com/wp-content/uploads/2018/02/Donate-Blood.jpg" alt="blood donation">
