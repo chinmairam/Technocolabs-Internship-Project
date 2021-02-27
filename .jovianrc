@@ -1,3 +1,7 @@
 {
-  "notebooks": {}
+  "notebooks": {
+    "Predict Blood Donation for Future Expectancy.ipynb": {
+      "slug": "c6e244294b0b4b09b8f783a6d13a266f"
+    }
+  }
 }
